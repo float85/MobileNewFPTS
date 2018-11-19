@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data></data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_4sdp">
+
+        <RelativeLayout
+            android:id="@+id/relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_6sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/txtMaCk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:layout_toRightOf="@+id/img"
+                android:ellipsize="end"
+                android:lines="1"
+                android:paddingTop="@dimen/_2sdp"
+                android:text="GAS - HOSE - Tổng công ty cổ phần khí Việt Nam - Công ty cổ phần khí..."
+                android:textSize="@dimen/_11sdp" />
+        </RelativeLayout>
+    </android.support.constraint.ConstraintLayout>
+</layout>

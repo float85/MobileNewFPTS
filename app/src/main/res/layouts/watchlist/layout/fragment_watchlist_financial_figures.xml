@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data></data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/nut"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_margin="@dimen/_4sdp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center">-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="right">-->
+
+        <!--<mobile.fpts.com.ezmibile.util.custormView.TextViewFont-->
+        <!--android:id="@+id/chitieu"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/bg_item_financialfigures2"-->
+        <!--android:gravity="center|center_vertical"-->
+        <!--android:padding="@dimen/_4sdp"-->
+        <!--android:text="@string/key_fs_items"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textSize="@dimen/_10sdp" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="left">-->
+
+        <!--<mobile.fpts.com.ezmibile.util.custormView.TextViewFont-->
+        <!--android:id="@+id/chiso"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/bg_item_financialfiguresw1"-->
+        <!--android:gravity="center|center_vertical"-->
+        <!--android:padding="@dimen/_4sdp"-->
+        <!--android:text="@string/financial_ratios"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textSize="@dimen/_10sdp" />-->
+        <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="9">-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/nut"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+        <!--</LinearLayout>-->
+    </LinearLayout>
+</layout>

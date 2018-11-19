@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_login">
+
+        <ImageView
+            android:id="@+id/circularImageView2"
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@color/background_login"
+            android:padding="@dimen/_2sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo_login"
+            app:layout_constraintBottom_toTopOf="@+id/guideline5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/guideline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/guideline5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_edittext_login"
+                    android:digits="abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:gravity="center"
+                    android:hint="@string/username"
+                    android:imeOptions="flagForceAscii"
+                    android:inputType="textPassword|textVisiblePassword"
+                    android:maxLength="10"
+                    android:padding="@dimen/_8sdp"
+                    android:textColorHint="@color/gray" />
+
+                <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1dp"-->
+                <!--android:background="@color/gray" />-->
+
+                <EditText
+                    android:id="@+id/edPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/border_edittext_login"
+                    android:digits="abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:gravity="center"
+                    android:hint="@string/password"
+                    android:imeOptions="flagForceAscii"
+                    android:inputType="textPassword"
+                    android:maxLength="20"
+                    android:padding="@dimen/_8sdp"
+                    android:textColorHint="@color/gray" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <CheckBox
+                    android:id="@+id/checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/Remember_account" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/_28sdp"
+                    android:layout_height="@dimen/_28sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/_1sdp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imgVN_EN"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/image_language_vn" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <mobile.fpts.com.ezmibile.util.custormView.ButtonFont
+                android:id="@+id/btnLogin"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_27sdp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/register_login_button"
+                android:text="@string/login"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="@dimen/_12sdp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+                <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                    android:id="@+id/txtForgotPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txtForgotPassword"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_9sdp" />
+
+                <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  |  "
+                    android:textColor="#000000"
+                    android:textSize="@dimen/_9sdp" />
+
+                <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                    android:id="@+id/txtHelp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/txtForgotPassword"
+                    android:text="@string/txtHelp"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_9sdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_1sdp">
+
+                <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/don_t_have_an_account"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/_9sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  " />
+
+                <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                    android:id="@+id/txtRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/txtForgotPassword"
+                    android:text="@string/txtRegister"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_9sdp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.85" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.35" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.20" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.80" />
+    </android.support.constraint.ConstraintLayout>
+</layout>

@@ -1,0 +1,242 @@
+<resources>
+    <string name="app_name">EzMobile</string>
+    <string name="crash_message">Vui lòng bấm RESTART để chạy lại ứng dụng.\n Nếu sự cố tiếp tục xảy ra, vui lòng liên hệ bộ phận kỹ thuật để được trợ giúp.</string>
+    <string name="error_details">Chi tiết lỗi</string>
+
+    <string name="setting">SETTING</string>
+
+    <string name="network_error">Network Error</string>
+    <string name="error_connect_to_server">Cannot connect to server</string>
+    <!--MAIN-->
+    <string name="tab_overview">Overview</string>
+    <string name="tab_property">Property</string>
+    <string name="tab_order_placing">Order placing</string>
+    <string name="tab_edit_delete">Del/Edit</string>
+    <string name="tab_money_transfer">Money transfer</string>
+
+    <!--MARKET OVERVIEW CHART-->
+    <string name="one_day">1D</string>
+    <string name="one_month">1M</string>
+    <string name="one_week">1W</string>
+    <string name="three_month">3M</string>
+    <string name="six_month">6M</string>
+    <string name="one_year">1Y</string>
+    <string name="two_year">2Y</string>
+    <string name="all">ALL</string>
+    <string name="market_overview">Market Overview</string>
+
+    <string name="chart">CHART</string>
+    <string name="top_gainers">TOP GAINERS</string>
+    <string name="top_losers">TOP LOSERS</string>
+    <string name="most_active">MOST ACTIVE</string>
+
+    <!--HOME-->
+    <string name="home">Home</string>
+    <string name="home_indexes_item_change_up"><![CDATA[<font color="#22b14c">%1$s</font><font color="#000000">|</font><font color="#22b14c">%2$s</font>]]></string>
+    <string name="home_indexes_item_change_average"><![CDATA[<font color="#FF7E2B">%1$s</font><font color="#000000">|</font><font color="#FF7E2B">%2$s</font>]]></string>
+    <string name="home_indexes_item_change_down"><![CDATA[<font color="#ff4444">%1$s</font><font color="#000000">|</font><font color="#ff4444">%2$s</font>]]></string>
+    <string name="home_indexes_item_change_floor"><![CDATA[<font color="#1496C8">%1$s</font><font color="#000000">|</font><font color="#1496C8">%2$s</font>]]></string>
+    <string name="home_indexes_item_change_top"><![CDATA[<font color="#FF00FF">%1$s</font><font color="#000000">|</font><font color="#FF00FF">%2$s</font>]]></string>
+    <string name="news1">News</string>
+    <string name="bil">bil</string>
+    <string name="world_index">World Indexes</string>
+    <string name="bang_gia_phai_sinh">Bảng Giá Phái Sinh</string>
+    <string name="watchlist">Watchlist</string>
+
+    <!--SEARCH-->
+    <string name="hint_search_autotextview">Search</string>
+    <string name="string_search_recent">-------------- Search --------------</string>
+    <string name="hint_search_toolbar">Search</string>
+    <string name="button_huybo">Cancel</string>
+    <!--WATCHLIST -->
+    <string name="watchlist_symbol">Symbol</string>
+    <string name="watchlist_last">Last</string>
+    <string name="watchlist_match">Match</string>
+    <string name="watchlist_ceil">Ceil</string>
+    <string name="watchlist_floor">Floor</string>
+    <string name="watchlist_ref">Ref</string>
+    <string name="watchlist_open">Open</string>
+    <string name="watchlist_high">High</string>
+    <string name="watchlist_low">Low</string>
+    <string name="watchlist_foreign_buy">Forei.Buy</string>
+    <string name="watchlist_foreign_sell">Forei.Sell</string>
+    <string name="watchlist_last_buy_3">P.B3</string>
+    <string name="watchlist_match_buy_3">Q.B3</string>
+    <string name="watchlist_last__buy_2">P.B2</string>
+    <string name="watchlist_match_buy_2">Q.B2</string>
+    <string name="watchlist_last_buy_1">P.B1</string>
+    <string name="watchlist_match_buy_1">Q.B1</string>
+    <string name="watchlist_last_sell_1">P.S1</string>
+    <string name="watchlist_match_sell_1">Q.S1</string>
+    <string name="watchlist_last_sell_2">P.S2</string>
+    <string name="watchlist_match_sell_2">Q.S2</string>
+    <string name="watchlist_last_sell_3">P.S3</string>
+    <string name="watchlist_match_sell_3">Q.S3</string>
+
+    <string name="key_fs_items">KEY FS ITEMS</string>
+    <string name="financial_ratios">FINANCIAL RATIOS</string>
+    <string name="statistic">Statistic</string>
+    <string name="foreign_ownership">Foreign Ownership</string>
+    <string name="finance_overview">Finance Overview</string>
+    <string name="financial_figures">Financial Figures</string>
+    <string name="trading">Trading</string>
+    <string name="chart1">Chart</string>
+    <string name="watchlist_analysis">Analysis</string>
+
+    <!--EVENTS-->
+    <string name="events">Events</string>
+    <string name="lich_su_kien">Events</string>
+    <string name="events_yesterday">Yesterday</string>
+    <string name="events_today">Today</string>
+    <string name="events_tomorrow">Tomorrow</string>
+    <string name="events_thisweek">This Week</string>
+    <string name="events_nextweek">Next Week</string>
+
+    <!--MARKET OVERVIEW DETAIL-->
+    <string name="market_overview_match_price"><![CDATA[%1$s : %2$s]]></string>
+    <string name="market_overview_detail_change_value_up"><![CDATA[<font color="#22b14c">( %1$s ▲ %2$s%%)</font>]]></string>
+    <string name="market_overview_detail_change_value_average"><![CDATA[<font color="#FF7E2B">( %1$s ■ %2$s%%)</font>]]></string>
+    <string name="market_overview_detail_change_value_down"><![CDATA[<font color="#ff4444">( %1$s ▼ %2$s%%)</font>]]></string>
+
+    <string name="market_overview_detail_price_up"><![CDATA[<font color = "#22b14c">▲ %1$s</font>]]></string>
+    <string name="market_overview_detail_price_down"><![CDATA[<font color="#ff4444">▼ %1$s</font>]]></string>
+    <string name="market_overview_detail_price_average"><![CDATA[<font color="#FF7E2B">■ %1$s</font>]]></string>
+
+    <string name="market_overview_detail_price_val"><![CDATA[Val: %1$s bil]]></string>
+    <string name="market_overview_detail_price_qty"><![CDATA[Qty: %1$s]]></string>
+    <string name="market_overview_detail_foreign_val"><![CDATA[Val: %1$s bil]]></string>
+    <string name="market_overview_detail_foreign_qty"><![CDATA[Qty: %1$s]]></string>
+
+    <string name="up_down_stocks">Up/Down stocks:</string>
+    <string name="put_throught">Putthrought:</string>
+    <string name="market_overview_trading_basic">BASIC</string>
+    <string name="market_overview_trading_chart">CHART</string>
+    <string name="market_overview_trading_ceiling">Ceiling:</string>
+    <string name="market_overview_trading_ref">Ref:</string>
+    <string name="market_overview_trading_floor">Floor:</string>
+    <string name="market_overview_trading_open">Open:</string>
+    <string name="market_overview_trading_highest">Highest:</string>
+    <string name="market_overview_trading_lowest">Lowest:</string>
+    <string name="market_overview_trading_foreign_buy">Foreign Buy:</string>
+    <string name="market_overview_foreign_sell">Foreign Sell:</string>
+
+    <!--Chỉ số thế giới-->
+    <string name="change_phan_tram">Change%</string>
+
+
+    <!--WATCHLIST DETAIL-->
+    <string name="watchlist_detail_analysis">ANALYSIS</string>
+    <string name="watchlist_detail_news">NEWS</string>
+    <string name="watchlist_detail_comment">COMMENT</string>
+    <string name="watchlist_detail_bestseller"><![CDATA[<font>Best Seller</font>]]></string>
+    <string name="watchlist_detail_bestbuy"><![CDATA[<font>Best Buy</font>]]></string>
+    <string name="watchlist_detail_sell">SELL</string>
+    <string name="watchlist_detail_buy">BUY</string>
+
+    <string name="watchlist_detail_khoi_luong_duoc_mua">Khối lượng được mua:</string>
+    <string name="watchlist_detail_khoi_luong_hien_tai">Khối lượng hiện tại:</string>
+    <string name="watchlist_detail_khoi_luong_con_lai">Khối lượng còn lại:</string>
+    <string name="watchlist_detail_ty_le_so_huu">Tỷ lệ sở hữu (%):</string>
+    <string name="watchlist_detail_nn_mua_ytd">NN Mua (YTD):</string>
+    <string name="watchlist_detail_nn_mua_ytd_30ngay">NN Mua (YTD 30 ngày):</string>
+    <string name="watchlist_detail_time_update">Cập nhật đến:</string>
+
+    <string name="watchlist_detail_klbq_30_ngay">KLbq 30 ngày</string>
+    <string name="watchlist_detail_eps">EPS</string>
+    <string name="watchlist_detail_gia_thap_nhat_52T">Giá thấp nhất 52T</string>
+    <string name="watchlist_detail_eps_dieu_chinh">EPS điều chỉnh</string>
+    <string name="watchlist_detail_gia_cao_nhat_52T">Giá cao nhất 52T</string>
+    <string name="watchlist_detail_NN_mua_YTD">NN mua (YTD)</string>
+    <string name="watchlist_detail_PB">P/B</string>
+    <string name="watchlist_detail_nuoc_ngoai">%Nước ngoài</string>
+    <string name="watchlist_detail_gia_tri_so_sach">Giá trị sổ sách</string>
+    <string name="watchlist_detail_von_hoa">Vốn hóa</string>
+    <string name="watchlist_detail_KLDNY">KLDNY</string>
+    <string name="watchlist_detail_PE">P/E</string>
+    <!--NEWS-->
+    <string name="news">News</string>
+
+    <string name="market_news">Market News</string>
+    <string name="department_report">Department Report</string>
+    <string name="concern">Company News</string>
+    <string name="analysis_comment">Analysis - Comment</string>
+    <string name="FPTS_news">FPTS News</string>
+    <string name="related_news">Related News</string>
+    <string name="news_details"><![CDATA[<font><u>News details</u></font>]]></string>
+
+    <!--DETAIL MARKET-->
+    <string name="detailhome_tablayout_chart">Chart</string>
+    <string name="detailhome_tablayout_topgainers">Top Gainers</string>
+    <string name="detailhome_tablayout_toplosers">Top Losers</string>
+    <string name="detailhome_tablayout_mostactive">Most Active</string>
+
+    <string name="detailhome_tab_symbol">Symbol</string>
+    <string name="detailhome_tab_open">Open</string>
+    <string name="detailhome_tab_close">Close</string>
+    <string name="detailhome_tab_high">High</string>
+    <string name="detailhome_tab_low">Low</string>
+    <string name="detailhome_tab_volume">Volume</string>
+    <string name="detailhome_tab_change">Change</string>
+
+    <string name="detaihome_UpDownTitle">Up/Down stocks</string>
+    <string name="detaihome_putthrough">Putthrough</string>
+    <string name="progressbar">loading ...</string>
+
+    <string name="dialog_error">No internet</string>
+    <string name="dialog_content">Home</string>
+
+    <string name="marketOverview_detail_txtS1Val"><![CDATA[<font>Val: %1$s</font>]]></string>
+    <string name="marketOverview_detail_txtS1Qty"><![CDATA[<font>Qty: %1$s</font>]]></string>
+    <string name="marketOverview_detail_txtS1UpDow"><![CDATA[<font>( %1$s %2$s %3$s%%)</font>]]></string>
+
+    <string name="marketOverview_detail_txtChange"><![CDATA[<font>( %1$s %2$s%%)</font>]]></string>
+    <string name="marketOverview_detail_txtPutVol"><![CDATA[<font>Qty: %1$s</font>]]></string>
+    <string name="marketOverview_detail_txtPutVal"><![CDATA[<font>Val: %1$s bil</font>]]></string>
+
+    <string name="marketOverview_detail_txtUp"><![CDATA[<font>▲ %1$s</font>]]></string>
+    <string name="marketOverview_detail_txtBt"><![CDATA[<font>■ %1$s</font>]]></string>
+    <string name="marketOverview_detail_txtDown"><![CDATA[<font>▼ %1$s</font>]]></string>
+
+    <!--MARKET OVERVIEW-->
+    <string name="change">Change</string>
+    <string name="change_percent">Change %</string>
+    <string name="volumn">Volumn</string>
+    <string name="low">Low</string>
+    <string name="high">High</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="symbol">Symbol</string>
+    <string name="value_bil">Value (bil)</string>
+    <string name="last">Last</string>
+    <string name="indexes">Indexes</string>
+    <string name="menu_folows_category"><![CDATA[<font color="#000000">DANH MỤC THEO DÕI</font>]]></string>
+    <string name="dialog_menu_done">DONE</string>
+    <string name="create_new_category">+ Create new category</string>
+    <string name="qty">Qty:</string>
+    <string name="qty1">Qty:</string>
+    <string name="GT">Val:</string>
+    <string name="val">Val:</string>
+
+    <!--CHART-->
+    <string name="symbol_search">Symbol Search</string>
+    <string name="chart_error_message_values">Giá trị không được lớn hơn giá trị mặc định!</string>
+
+    <!--//login-->
+    <string name="txtForgotPassword"><a href="https://accounts.fpts.com.vn/forgotpassword">Forgot password?</a></string>
+    <string name="txtHelp"><a href="https://accounts.fpts.com.vn/help?s=14">Help</a></string>
+    <string name="txtRegister"><a href="http://ezopen.fpts.com.vn/pages/default.aspx">Register</a></string>
+    <string name="login">Log in</string>
+    <string name="Remember_account">Remember account</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="username">UserName</string>
+    <string name="password_error">Input password</string>
+    <string name="update_ver">Update</string>
+    <string name="content_update_ver">Please update your app !</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_login_user">Input UserName</string>
+    <string name="error_login_length">length >= 8</string>
+    <string name="toast_back_main">Please click BACK again to exit</string>
+
+</resources>

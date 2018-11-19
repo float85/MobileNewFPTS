@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data></data>
+
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:background="#000"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_toolbar"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/llSearch"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_48sdp"
+            android:background="#0e0e0e"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <AutoCompleteTextView
+                android:id="@+id/edMaCk"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_33sdp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_6sdp"
+                android:layout_marginRight="@dimen/_3sdp"
+                android:layout_weight="4"
+                android:background="@drawable/searchck_search_vien_edittext"
+                android:dropDownWidth="match_parent"
+                android:hint="@string/hint_search_autotextview"
+                android:maxEms="9"
+                android:maxLines="1"
+                android:textColorHint="#767676"
+                android:textSize="@dimen/_11sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.ButtonFont
+                android:id="@+id/btnBack"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_32sdp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:layout_marginRight="@dimen/_6sdp"
+                android:layout_weight="2"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_9sdp"
+                android:background="@drawable/searchck_search_vien_edittext"
+                android:text="@string/button_huybo" />
+        </LinearLayout>
+
+        <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/string_search_recent"
+            android:padding="@dimen/_4sdp"
+            android:textColor="#fff"
+            android:textSize="@dimen/_11sdp"
+            android:layout_below="@+id/llSearch"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerSeachRecent"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/text"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:id="@+id/ll_progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80464646"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Loading ...."
+                android:textColor="#ed1a1a" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</layout>

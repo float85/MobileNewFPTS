@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_left"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/gray"
+        android:layout_height="@dimen/_1sdp">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgNews"
+            android:layout_width="@dimen/_34sdp"
+            android:layout_height="@dimen/_34sdp"
+            android:padding="@dimen/_8sdp"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:maxLines="3"
+                android:textSize="@dimen/_11sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/tvDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tvTitle"
+                android:gravity="right|bottom"
+                android:text="@{news.stringDate}"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/_9sdp"
+                android:layout_alignParentLeft="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

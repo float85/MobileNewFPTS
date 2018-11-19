@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:left="-1sp"
+    >
+    <shape >
+        <solid android:color="@color/tab_btn_actived_selected"/>
+        <stroke
+            android:width="0.1sp"
+            android:color="#cccccc" />
+        <corners
+            android:topLeftRadius="0dp" android:topRightRadius="0dp"
+            android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp"
+            />
+    </shape>
+</item>
+</layer-list>

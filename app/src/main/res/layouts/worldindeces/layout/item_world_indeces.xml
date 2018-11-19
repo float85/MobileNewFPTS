@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data></data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_4sdp"
+            android:orientation="horizontal">
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/tv_value_chiso"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:ellipsize="end"
+                android:gravity="left|center"
+                android:maxLines="1"
+                android:text="Nasdaq"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/_11sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/tv_value_gia"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:ellipsize="end"
+                android:gravity="right|center"
+                android:maxLines="1"
+                android:text="7,654.4"
+                android:textSize="@dimen/_11sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/tv_value_thaydoi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:ellipsize="end"
+                android:gravity="right|center"
+                android:maxLines="1"
+                android:text="+75.32"
+                android:textSize="@dimen/_11sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/tv_value_thaydoi_ptram"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:ellipsize="end"
+                android:gravity="right|center"
+                android:maxLines="1"
+                android:text="+0.5"
+                android:textSize="@dimen/_11sdp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/gray" />
+    </LinearLayout>
+</layout>

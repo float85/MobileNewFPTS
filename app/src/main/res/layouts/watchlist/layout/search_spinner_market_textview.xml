@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mobile.fpts.com.ezmibile.util.custormView.TextViewFont xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/search_itemsearchma"
+    android:padding="@dimen/_8sdp"
+    android:textColor="#353535"
+    android:textSize="@dimen/_12sdp" />

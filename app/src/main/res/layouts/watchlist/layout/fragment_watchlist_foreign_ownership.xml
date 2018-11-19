@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data></data>
+
+    <FrameLayout
+        android:id="@+id/contentview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/recycler_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:layoutManager="android.support.v7.widget.LinearLayoutManager">-->
+
+        <!--</android.support.v7.widget.RecyclerView>-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_9sdp">
+
+                    <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/watchlist_detail_khoi_luong_duoc_mua"
+                        android:textSize="@dimen/_10sdp" />
+
+                    <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                        android:id="@+id/khoiluong_duoc_mua"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text=""
+                        android:textSize="@dimen/_10sdp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginRight="@dimen/_8sdp"
+                    android:background="@color/Grey" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_9sdp">
+
+                    <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/watchlist_detail_khoi_luong_hien_tai"
+                        android:textSize="@dimen/_10sdp" />
+
+                    <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                        android:id="@+id/khoiluong_hien_tai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text=""
+                        android:textSize="@dimen/_10sdp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginRight="@dimen/_8sdp"
+                    android:background="@color/Grey" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_9sdp">
+
+                    <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/watchlist_detail_khoi_luong_con_lai"
+                        android:textSize="@dimen/_10sdp" />
+
+                    <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                        android:id="@+id/khoiluong_con_lai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text=""
+                        android:textSize="@dimen/_10sdp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginRight="@dimen/_8sdp"
+                    android:background="@color/Grey" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_9sdp">
+
+                    <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/watchlist_detail_ty_le_so_huu"
+                        android:textSize="@dimen/_10sdp" />
+
+                    <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                        android:id="@+id/tyle_so_huu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text=""
+                        android:textSize="@dimen/_10sdp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginRight="@dimen/_8sdp"
+                    android:background="@color/Grey" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_9sdp">
+
+                    <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/watchlist_detail_nn_mua_ytd"
+                        android:textSize="@dimen/_10sdp" />
+
+                    <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                        android:id="@+id/nn_mua_YTD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text=""
+                        android:textSize="@dimen/_10sdp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginRight="@dimen/_8sdp"
+                    android:background="@color/Grey" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_9sdp">
+
+                    <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/watchlist_detail_nn_mua_ytd_30ngay"
+                        android:textSize="@dimen/_10sdp" />
+
+                    <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                        android:id="@+id/nn_muaYTD30ngay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text=""
+                        android:textSize="@dimen/_10sdp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginRight="@dimen/_8sdp"
+                    android:background="@color/Grey" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_9sdp">
+
+                    <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/watchlist_detail_time_update"
+                        android:textSize="@dimen/_10sdp" />
+
+                    <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                        android:id="@+id/time_update"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text=""
+                        android:textSize="@dimen/_10sdp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</layout>

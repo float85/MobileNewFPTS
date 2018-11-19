@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data></data>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_4sdp">
+
+        <ImageView
+            android:id="@+id/ivBug"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/customactivityoncrash_error_image" />
+
+        <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+            android:id="@+id/tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ivBug"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:gravity="center"
+            android:text="Có sự cố xảy ra"
+            android:textSize="@dimen/_20sdp" />
+
+        <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+            android:id="@+id/tvMessage2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMessage"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:gravity="center"
+            android:text="@string/crash_message"
+            android:textSize="@dimen/_16sdp" />
+
+        <mobile.fpts.com.ezmibile.util.custormView.ButtonFont
+            android:id="@+id/btnRestartApp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_below="@+id/tvMessage2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:focusable="true"
+            android:paddingBottom="@dimen/_26sdp"
+            android:paddingLeft="@dimen/_20sdp"
+            android:paddingRight="@dimen/_20sdp"
+            android:paddingTop="@dimen/_26sdp"
+            android:text="Restart"
+            android:textSize="@dimen/_24sdp" />
+
+        <mobile.fpts.com.ezmibile.util.custormView.ButtonFont
+            android:id="@+id/btnErrorDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnRestartApp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/_20sdp"
+            android:paddingRight="@dimen/_20sdp"
+            android:text="@string/error_details"
+            android:textColor="@color/red"
+            android:textSize="@dimen/_16sdp" />
+
+    </RelativeLayout>
+</layout>

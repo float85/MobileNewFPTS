@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data></data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llTablayoutColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/_4sdp">
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/txtSymbol"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="left|center_vertical"
+                android:text="@string/symbol"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/txtOpen"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="right|center_vertical"
+                android:text="@string/open"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/txtClose"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="right|center_vertical"
+                android:text="@string/close"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/txtHigh"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="right|center_vertical"
+                android:text="@string/high"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/txtLow"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="right|center_vertical"
+                android:text="@string/low"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/txtVolume"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.7"
+                android:gravity="right|center_vertical"
+                android:text="@string/volumn"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/txtChange"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="right|center_vertical"
+                android:text="@string/change"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dip"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" />
+    </LinearLayout>
+</layout>

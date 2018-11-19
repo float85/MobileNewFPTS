@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data></data>
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/lnItemHeader"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/custom_header_home"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:orientation="horizontal">-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_4sdp"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/_8sdp">
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/txtTitleHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="News"
+                android:textSize="@dimen/_13sdp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imageview_popup"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:background="@drawable/bg_home_icon_imageview"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_dehaze_black_24dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageview_add"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:background="@drawable/bg_home_icon_imageview"
+                android:padding="@dimen/_1sdp"
+                android:src="@drawable/ic_add_black_24dp" />
+
+            <ImageView
+                android:id="@+id/imageview_edit"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:background="@drawable/bg_home_icon_imageview"
+                android:padding="@dimen/_2sdp"
+                android:src="@drawable/ic_edit_black_24dp" />
+
+            <ImageView
+                android:id="@+id/imageview_detail"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:padding="@dimen/_1sdp"
+                android:background="@drawable/bg_home_icon_imageview"
+                android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+            <!--</LinearLayout>-->
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_menu_overview"
+        android:icon="@drawable/ic_menu_overview"
+        android:title="Overview"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/item_menu_property"
+        android:icon="@drawable/ic_menu_property"
+        android:title="Property"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/item_menu_placing_order"
+        android:icon="@drawable/ic_menu_placing_order"
+        android:title="Overview"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/item_menu_edit_delete"
+        android:icon="@drawable/ic_menu_edit_delete"
+        android:title="Overview"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/item_menu_money_transfer"
+        android:icon="@drawable/ic_menu_money_transfer"
+        android:title="Overview"
+        app:showAsAction="always|withText" />
+</menu>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data></data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/_24sdp"
+            android:orientation="vertical">
+
+            <mobile.fpts.com.ezmibile.util.custormView.EditTextFont
+                android:id="@+id/tieude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_24sdp"
+                android:text="MACD"
+                android:textStyle="bold" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.EditTextFont
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="12"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.EditTextFont
+                android:id="@+id/name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="26"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.EditTextFont
+                android:id="@+id/name2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="9"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp">
+                <!--com.fpts.mobile.util.custormView.ButtonFont-->
+                <mobile.fpts.com.ezmibile.util.custormView.ButtonFont
+                    android:id="@+id/exit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/save"
+                    android:layout_toStartOf="@+id/save"
+                    android:background="?attr/selectableItemBackground"
+                    android:text="Cancel"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent" />
+
+                <mobile.fpts.com.ezmibile.util.custormView.ButtonFont
+                    android:id="@+id/save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:text="Draw"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

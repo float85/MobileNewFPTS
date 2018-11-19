@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data></data>
+
+    <LinearLayout
+        android:id="@+id/lnLayoutMainHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/_6sdp"
+        android:paddingLeft="@dimen/_8sdp"
+        android:paddingRight="@dimen/_8sdp"
+        android:paddingTop="@dimen/_6sdp">
+
+        <mobile.fpts.com.ezmibile.util.custormView.TextViewFontBold
+            android:id="@+id/txtIndices"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:paddingRight="@dimen/_4sdp"
+            android:singleLine="true"
+            android:text="FPT"
+            android:textSize="@dimen/_13sdp" />
+
+        <mobile.fpts.com.ezmibile.util.custormView.TextViewFontBold
+            android:id="@+id/txtLast"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:paddingRight="@dimen/_4sdp"
+            android:singleLine="true"
+            android:text="0"
+            android:textSize="@dimen/_11sdp" />
+
+        <mobile.fpts.com.ezmibile.util.custormView.TextViewFontBold
+            android:id="@+id/txtChange"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.2"
+            android:gravity="center_vertical|right"
+            android:paddingRight="@dimen/_4sdp"
+            android:singleLine="true"
+            android:text="0"
+            android:textSize="@dimen/_11sdp" />
+
+        <mobile.fpts.com.ezmibile.util.custormView.TextViewFontBold
+            android:id="@+id/txtQty"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.2"
+            android:gravity="center_vertical|right"
+            android:paddingRight="@dimen/_4sdp"
+            android:singleLine="true"
+            android:text="0"
+            android:textSize="@dimen/_11sdp" />
+    </LinearLayout>
+</layout>

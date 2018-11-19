@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data></data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/menu_tab"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFontBold
+                android:id="@+id/tab_one_day"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/_4sdp"
+                android:text="@string/one_day"
+                android:textSize="@dimen/_11sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFontBold
+                android:id="@+id/tab_one_week"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/_4sdp"
+                android:text="@string/one_week"
+                android:textSize="@dimen/_11sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFontBold
+                android:id="@+id/tab_one_month"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/_4sdp"
+                android:text="@string/one_month"
+                android:textSize="@dimen/_11sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFontBold
+                android:id="@+id/tab_three_month"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/_4sdp"
+                android:text="@string/three_month"
+                android:textSize="@dimen/_11sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFontBold
+                android:id="@+id/tab_six_month"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/_4sdp"
+                android:text="@string/six_month"
+                android:textSize="@dimen/_11sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFontBold
+                android:id="@+id/tab_one_year"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/_4sdp"
+                android:text="@string/one_year"
+                android:textSize="@dimen/_12sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFontBold
+                android:id="@+id/tab_two_year"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/_4sdp"
+                android:text="@string/two_year"
+                android:textSize="@dimen/_11sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFontBold
+                android:id="@+id/tab_all"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/_4sdp"
+                android:text="@string/all"
+                android:textSize="@dimen/_11sdp" />
+        </LinearLayout>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/line_chart"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:paddingLeft="@dimen/_4sdp"
+            android:paddingRight="@dimen/_4sdp" />
+
+        <com.github.mikephil.charting.charts.CandleStickChart
+            android:id="@+id/candle_stick_chart"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:paddingLeft="@dimen/_8sdp"
+            android:paddingRight="@dimen/_8sdp"
+            android:visibility="gone" />
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/bar_chart"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:paddingLeft="@dimen/_4sdp"
+            android:paddingRight="@dimen/_4sdp" />
+
+    </LinearLayout>
+</layout>

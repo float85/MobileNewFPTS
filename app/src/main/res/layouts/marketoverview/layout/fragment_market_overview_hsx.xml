@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data></data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/contentview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center|center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/_4sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.2"
+                        android:gravity="left"
+                        android:text="@string/indexes"
+                        android:textSize="@dimen/_10sdp" />
+
+                    <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="@dimen/_4sdp"
+                        android:text="@string/last"
+                        android:textSize="@dimen/_10sdp" />
+
+                    <LinearLayout
+                        android:id="@+id/linear_layout_change"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                            android:id="@+id/textview_change"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:textSize="@dimen/_10sdp" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/icon_arrow_upperright" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_layout_value"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.5"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                            android:id="@+id/textview_value"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:textSize="@dimen/_10sdp" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/icon_arrow_upperright" />
+
+                        <LinearLayout
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/gray" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_progressbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </FrameLayout>
+</layout>

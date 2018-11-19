@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data></data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/lnIndexOverview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                                android:id="@+id/txtIndex"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="@dimen/_20sdp"
+                                android:text="VNI"
+                                android:textSize="@dimen/_13sdp"
+                                android:textStyle="bold" />
+
+                            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                                android:id="@+id/txtVolume"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="Qty:24,950,444"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="@dimen/_20sdp"
+                                android:textSize="@dimen/_13sdp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                                android:id="@+id/txtChange"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:text="(-0.28 -0.44%)"
+                                android:paddingLeft="@dimen/_20sdp"
+                                android:textSize="@dimen/_13sdp"
+                                android:textStyle="bold" />
+
+                            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                                android:id="@+id/txtValue"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="Val: "
+                                android:gravity="center_vertical"
+                                android:paddingLeft="@dimen/_20sdp"
+                                android:textSize="@dimen/_13sdp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.3dp"
+                            android:background="@color/color_kengang" />
+
+                        <!--SỐ MÃ TĂNG GIẢM-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_30sdp"
+                            android:orientation="horizontal">
+
+                            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                                android:id="@+id/txtUpDownTitle"
+                                android:layout_width="@dimen/_130sdp"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="@dimen/_20sdp"
+                                android:text="@string/detaihome_UpDownTitle"
+                                android:textSize="@dimen/_11sdp" />
+
+                            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                                android:id="@+id/txtUp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:paddingRight="@dimen/_5sdp"
+                                android:textColor="@color/green"
+                                android:textSize="@dimen/_11sdp" />
+
+                            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                                android:id="@+id/txtBt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:paddingRight="@dimen/_5sdp"
+                                android:textColor="@color/orange"
+                                android:textSize="@dimen/_11sdp" />
+
+                            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                                android:id="@+id/txtDown"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:paddingRight="@dimen/_5sdp"
+                                android:textColor="@color/red"
+                                android:textSize="@dimen/_11sdp" />
+                        </LinearLayout>
+
+                        <!--THỎA THUẬN-->
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/_30sdp"
+                            android:orientation="horizontal">
+
+                            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                                android:id="@+id/txtPutthroughTitle"
+                                android:layout_width="@dimen/_130sdp"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="@dimen/_20sdp"
+                                android:text="@string/detaihome_putthrough"
+                                android:textSize="@dimen/_11sdp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:weightSum="2">
+
+                                <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                                    android:id="@+id/txtPutVol"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center_vertical"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_11sdp"
+                                    android:textStyle="bold" />
+
+                                <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                                    android:id="@+id/txtPutVal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center_vertical"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_11sdp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.3dp"
+                            android:background="@color/color_kengang" />
+
+                        <!--3 PHIÊN-->
+                        <LinearLayout
+                            android:id="@+id/lnS1S2S3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:background="@color/color_kengang" />
+
+                    <android.support.design.widget.TabLayout
+                        android:id="@+id/tablayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:elevation="@dimen/_3sdp"
+                        app:tabMode="scrollable"
+                        app:tabTextAppearance="@style/FreeSansFontTextAppearance" />
+                    <!--app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"?-->
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:background="@color/color_kengang" />
+
+                    <mobile.fpts.com.ezmibile.util.custormView.CustomViewPager
+                        android:id="@+id/viewpager"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+        <LinearLayout
+            android:id="@+id/ll_progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:text="@string/progressbar"
+                android:textColor="@color/red" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

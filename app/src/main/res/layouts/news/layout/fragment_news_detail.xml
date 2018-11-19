@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data></data>
+
+    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollview_news_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/_5sdp">
+
+            <LinearLayout
+                android:id="@+id/ll_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_news_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/img_news_detail"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_4sdp"
+                            android:layout_weight="3"
+                            android:contentDescription="TODO"
+                            android:visibility="gone" />
+
+                        <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                            android:id="@+id/wv_title"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:text=""
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/_12sdp"
+                            tools:ignore="WebViewLayout" />
+                    </LinearLayout>
+
+                    <mobile.fpts.com.ezmibile.util.custormView.TextViewFontBold
+                        android:id="@+id/wv_openfile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="Open file"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/_11sdp"
+                        android:visibility="gone"
+                        tools:ignore="WebViewLayout" />
+
+                    <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                        android:id="@+id/wv_body"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autoLink="all"
+                        android:text=""
+                        android:textSize="@dimen/_11sdp"
+                        tools:ignore="WebViewLayout" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                        android:id="@+id/tv_title_tinlienquan"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_24sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@color/blue"
+                        android:gravity="center|left"
+                        android:paddingLeft="@dimen/_8sdp"
+                        android:text="@string/related_news"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp"
+                        android:visibility="gone" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/relative_layout_relativedNews"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_layout_progressBar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ProgressBar
+                    android:id="@id/progressBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+    </android.support.v4.widget.NestedScrollView>
+</layout>

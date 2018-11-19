@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data></data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_4sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/_8sdp"
+            android:paddingLeft="@dimen/_4sdp"
+            android:paddingRight="@dimen/_4sdp"
+            android:paddingTop="@dimen/_8sdp">
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFontBold
+
+                android:id="@+id/txtSymbol"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/_10sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/txtOpen"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="right|center_vertical"
+                android:textSize="@dimen/_10sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/txtClose"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="right|center_vertical"
+                android:textSize="@dimen/_10sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/txtHigh"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:drawablePadding="@dimen/_2sdp"
+                android:gravity="right|center_vertical"
+                android:textSize="@dimen/_10sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/txtLow"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:drawablePadding="@dimen/_2sdp"
+                android:gravity="right|center_vertical"
+                android:textSize="@dimen/_10sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/txtVolume"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:drawablePadding="@dimen/_2sdp"
+                android:gravity="right|center_vertical"
+                android:textSize="@dimen/_10sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/txtChange"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:drawablePadding="@dimen/_2sdp"
+                android:gravity="right|center_vertical"
+                android:textSize="@dimen/_10sdp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dip"
+            android:background="@color/gray" />
+    </LinearLayout>
+</layout>

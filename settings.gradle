@@ -1,0 +1,3 @@
+include ':app', ':sortcode', ':libs-release'
+include ':TableLib'
+include ':MPChartLib'

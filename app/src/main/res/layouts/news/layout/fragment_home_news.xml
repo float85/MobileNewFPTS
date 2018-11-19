@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data></data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <mobile.fpts.com.ezmibile.util.custormView.TabLayoutFont
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabIndicatorHeight="0dp"
+                app:tabMode="scrollable"
+                app:tabTextAppearance="@style/MineCustomTabText">
+
+            </mobile.fpts.com.ezmibile.util.custormView.TabLayoutFont>
+
+            <!--app:tabSelectedTextColor="@color/green"-->
+            <!--app:tabIndicatorColor="@color/green"-->
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+        android:id="@+id/ll_progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </FrameLayout>
+</layout>

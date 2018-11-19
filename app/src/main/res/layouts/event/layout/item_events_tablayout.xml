@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data></data>
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_57sdp"
+        android:orientation="vertical">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:id="@+id/constraint"
+            android:layout_above="@+id/view2"
+            android:layout_height="@dimen/_56sdp">
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#878787"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/relativeLayout"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                    android:id="@+id/txtStock_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <!--<mobile.fpts.com.ezmibile.util.custormView.TextViewFont-->
+                <!--android:id="@+id/txtGroupNm"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="@dimen/_7sdp" />-->
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="1dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="9dp"
+                android:layout_marginTop="9dp"
+                android:background="#484848"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                    android:id="@+id/txtContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/txtDate"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxLines="2"
+                    android:paddingLeft="@dimen/_8sdp"
+                    android:paddingRight="@dimen/_8sdp"
+                    android:paddingTop="@dimen/_4sdp"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:textSize="@dimen/_9sdp" />
+
+                <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                    android:id="@+id/txtDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:paddingBottom="@dimen/_4sdp"
+                    android:paddingRight="@dimen/_8sdp"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/_7sdp" />
+            </RelativeLayout>
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.30" />
+        </android.support.constraint.ConstraintLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#5e5e5e" />
+    </RelativeLayout>
+</layout>

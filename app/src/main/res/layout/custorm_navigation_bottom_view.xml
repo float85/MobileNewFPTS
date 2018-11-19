@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data></data>
+
+    <!--<android.support.design.widget.BottomNavigationView-->
+    <!--android:id="@+id/bottom_navigation_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="start"-->
+    <!--android:background="?android:attr/windowBackground"-->
+    <!--android:visibility="gone"-->
+    <!--app:itemIconTint="@color/black"-->
+    <!--app:itemTextColor="@color/black"-->
+    <!--app:menu="@menu/home_navigation">-->
+
+    <!--</android.support.design.widget.BottomNavigationView>-->
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/menu_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/tab_overview"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/bg_item_menu_tab_select"
+                android:orientation="vertical"
+                android:padding="@dimen/_2sdp">
+
+                <ImageView
+                    android:id="@+id/img_overview"
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_menu_overview_dark" />
+
+                <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:text="@string/tab_overview"
+                    android:textColor="@color/colorFontDark"
+                    android:textSize="@dimen/_8sdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tab_property"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="@dimen/_2sdp">
+
+                <ImageView
+                    android:id="@+id/img_property"
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_menu_property_dark" />
+
+                <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:text="@string/tab_property"
+                    android:textColor="@color/colorFontDark"
+                    android:textSize="@dimen/_8sdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tab_placing_order"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="@dimen/_2sdp">
+
+                <ImageView
+                    android:id="@+id/img_placing_order"
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_menu_placing_order_dark" />
+
+                <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:text="@string/tab_order_placing"
+                    android:textColor="@color/colorFontDark"
+                    android:textSize="@dimen/_8sdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tab_edit_delete"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="@dimen/_2sdp">
+
+                <ImageView
+                    android:id="@+id/img_edit_delete"
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_menu_edit_delete_dark" />
+
+                <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:text="@string/tab_edit_delete"
+                    android:textColor="@color/colorFontDark"
+                    android:textSize="@dimen/_8sdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tab_money_transfer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1.5"
+                android:orientation="vertical"
+                android:padding="@dimen/_2sdp">
+
+                <ImageView
+                    android:id="@+id/img_money_transfer"
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_menu_money_transfer_dark" />
+
+                <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/tab_money_transfer"
+                    android:textColor="@color/colorFontDark"
+                    android:textSize="@dimen/_8sdp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

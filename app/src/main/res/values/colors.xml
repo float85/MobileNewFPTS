@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ededed</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="green">#0d9d00</color>
+    <color name="greenDark">#00ff00</color>
+    <color name="orange">#FF7E2B</color>
+    <color name="white">#ffffff</color>
+    <color name="while_nhat">#afaaaa</color>
+    <color name="note_bg">#00ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="gray">#c0c0c0</color>
+    <color name="gray_2">#767676</color>
+    <color name="gray_3">#3a3939</color>
+    <color name="black">#000000</color>
+    <color name="black1">#424b53</color>
+    <color name="blue">#1496C8</color>
+    <!--66ccff-->
+    <color name="purple">#FF00FF</color>
+    <color name="yellow">#f2c80d</color>
+
+    <color name="colorFont">#000000</color>
+    <color name="colorFontDark">#ffffff</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorBackgroundDark">#424b53</color>
+    <color name="colorHeader">#e5e5e5</color>
+    <color name="colorHeaderDark">#2b3138</color>
+    <color name="colorContent">#efefef</color>
+    <color name="colorContentDark">#383f48</color>
+    <color name="colorChange">#c2c2c2</color>
+    <color name="greenor">#11a12c</color>
+    <color name="Grey">#dadada</color>
+    <color name="colorTab">#a9a9a9</color>
+    <color name="Black">#000000</color>
+    <color name="White">#f4f4f4</color>
+
+    <!--EVENTS-->
+    <!--màu c?a events màn hình dêm-->
+    <!--tr?ng-->
+    <color name="tabTextColor_white">#a9a6a6</color>
+    <color name="tabSelectedTextColor_white">#f2f2f2</color>
+    <color name="BackgroundColor_tablayout_white">#f7f7f7</color>
+    <color name="color_groupNm_white">#9E9E9E</color>
+    <color name="BackgroundColor_view_white">#757575</color>
+    <color name="autoTV_hint_white">#767676</color>
+    <color name="background_white">#e5e5e5</color>
+
+    <!--dêm-->
+    <color name="tabTextColor_black">#757575</color>
+    <color name="BackgroundColor_tablayout_black">#2b3138</color>
+    <color name="BackgroundColor_viewpager_black">#1e252b</color>
+    <color name="color_groupNm_black">#696969</color>
+    <color name="BackgroundColor_view_black">#757575</color>
+    <color name="autoTV_hint_black">#182e42</color>
+    <color name="background_black">#393939</color>
+
+    <color name="tab_btn_normal">#fafafa</color>
+    <color name="tab_btn_actived_selected">#e5e5e5</color>
+    <color name="tablayout_color">#efefef</color>
+    <color name="color_kengang">#b7b7b7</color>
+    <color name="gray_color">#2C3E50</color>
+
+    <color name="background_login">#efefef</color>
+    <color name="background_button">#3F51B5</color>
+</resources>

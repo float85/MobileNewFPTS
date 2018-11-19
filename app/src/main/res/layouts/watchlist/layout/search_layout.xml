@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data></data>
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView_searchWidget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:padding="5dp"
+            android:textColor="@color/colorAccent">
+
+            <requestFocus />
+        </AutoCompleteTextView>
+    </android.support.constraint.ConstraintLayout>
+</layout>

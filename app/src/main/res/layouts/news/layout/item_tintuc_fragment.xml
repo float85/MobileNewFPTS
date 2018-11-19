@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_left"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/gray">
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgNews"
+            android:layout_width="@dimen/_68sdp"
+            android:layout_height="@dimen/_68sdp"
+            android:padding="@dimen/_8sdp"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_weight="4"
+                android:maxLines="3"
+                android:text="@{news.stringTitle}"
+                android:textSize="@dimen/_12sdp" />
+
+            <mobile.fpts.com.ezmibile.util.custormView.TextViewFont
+                android:id="@+id/tvDate"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:gravity="right|bottom"
+                android:text="@{news.stringDate}"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/_10sdp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
